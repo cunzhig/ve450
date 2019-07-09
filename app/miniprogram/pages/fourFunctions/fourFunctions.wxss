@@ -27,3 +27,14 @@
   color: #007aff;
   text-align: center;
 }
+
+.userImg{
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 30rpx;
+  border-radius: 80%;
+  background-size: cover; 
+  background-color: white;
+}

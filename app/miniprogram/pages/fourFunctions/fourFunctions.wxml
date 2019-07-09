@@ -1,5 +1,14 @@
 <!--miniprogram/pages/fourFunctions/fourFunctions.wxml--> 
   
+  <!-- 用户 openid -->
+  <view class="user">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userImg"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+  </view>
 
   <view class='funcIndex'>
 
@@ -12,7 +21,7 @@
 
   <!-- Health Record -->
   <view class="function">
-    <navigator url="" open-type="navigate" class="function-text">
+    <navigator url="../healthRecord/healthRecord" open-type="navigate" class="function-text">
       <text>Health Record</text>
     </navigator>
   </view>

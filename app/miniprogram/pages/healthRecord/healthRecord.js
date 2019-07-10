@@ -128,14 +128,14 @@ Page({
           date: db.serverDate(),
         })
         wx.showToast({
-          title: '新增记录成功',
+          title: 'Successful',
         })
         console.log('[数据库] [新增记录] 成功，记录 _id: ', res._id)
       },
       fail: err => {
         wx.showToast({
           icon: 'none',
-          title: '新增记录失败'
+          title: 'Failed'
         })
         console.error('[数据库] [新增记录] 失败：', err)
       }

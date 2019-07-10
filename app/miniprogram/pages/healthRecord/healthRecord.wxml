@@ -30,7 +30,7 @@
       </view>
 
       <view class="healthView">Temperature(℃）：
-      <input class="input" type="number" name="temp" placeholder="Please input your temparature"
+      <input class="input" type="digit" name="temp" placeholder="Please input your temparature"
       bindinput="healthInput" />
       </view>
   </view>

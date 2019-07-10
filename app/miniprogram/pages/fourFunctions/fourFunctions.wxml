@@ -1,14 +1,15 @@
 <!--miniprogram/pages/fourFunctions/fourFunctions.wxml--> 
   
   <!-- 用户 openid -->
-  <view class="user">
+  <view class="user" >
     <button 
       open-type="getUserInfo" 
       bindgetuserinfo="onGetUserInfo"
       class="userImg"
       style="background-image: url({{avatarUrl}})"
-    ></button>
+    ></button> 
   </view>
+
 
   <view class='funcIndex'>
 
